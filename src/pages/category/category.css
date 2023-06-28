@@ -1,0 +1,10 @@
+
+.caregory-title {
+    margin: auto;
+    margin-top: 4.4rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    border-bottom: 2px solid gray;
+    width: max-content;
+}

@@ -1,0 +1,95 @@
+.profile {
+  padding: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-header {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--primary-color-100);
+  border-radius: 12px;
+}
+
+.profile-photo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image-wrapper {
+  width: 10rem;
+  height: 7.5em;
+  text-align: center;
+}
+
+.profile-image {
+  object-fit: contain;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 0.8rem;
+}
+
+.upload-profile-photo-label,
+.upload-profile-photo-btn {
+  color: var(--primary-color-100);
+  background-color: var(--primary-color-400);
+  padding: 0.18rem 0.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 10;
+  width: max-content;
+  margin: 0.35rem auto;
+  font-size: 1.2rem;
+}
+.upload-profile-photo-input {
+  display: none;
+}
+
+.profile-username {
+  font-size: 1.9rem;
+  color: var(--primary-color-400);
+  margin-top: 1.9rem;
+}
+
+.profile-bio{
+    text-align: center;
+}
+
+.update-profile-btn {
+    background-color: var(--primary-color-400);
+    color: var(--primary-color-100);
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.profile-posts-list {
+margin: 3rem auto;
+}
+
+.profile-posts-list h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid black;
+    width: max-content;
+}
+
+.delete-account-btn {
+    width: max-content;
+    background-color: rgb(241, 80, 88);
+    color: var(--primary-color-400);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    padding: 0.25rem 0.9rem;
+    cursor: pointer;
+}

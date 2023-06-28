@@ -1,0 +1,54 @@
+:root {
+  --main-color: rgb(164, 164, 153);
+  --primary-color-300: rgb(33, 52, 71);
+  --primary-color-200: rgb(46, 76, 108);
+  --primary-color-100: rgb(199, 213, 229);
+  --primary-color-400: rgb(18, 35, 44);
+  --blue-color: rgb(4, 105, 194);
+  --green-color: rgb(39, 174, 96);
+  --green-sea-color: rgb(22, 160, 133);
+  --pumpkin-color: rgb(211, 84, 0);
+  --red-color: rgb(217, 83, 79);
+  --white-color: rgb(255, 255, 255);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: var(--main-color);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Scrollbar Classes For Google Chrome */
+html::-webkit-scrollbar {
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: rgb(187, 179, 179);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color-400);
+  border-radius: 15px;
+}
